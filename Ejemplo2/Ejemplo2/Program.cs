@@ -20,7 +20,6 @@ namespace Ejemplo2
             Console.ReadLine();
 
         }
-
         static bool Change(int importe, out int change)
         {
             var result = true;
