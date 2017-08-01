@@ -1,0 +1,9 @@
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\bin\Debug\Ejemplo4.exe.config
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\bin\Debug\Ejemplo4.exe
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\bin\Debug\Ejemplo4.pdb
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\obj\Debug\Ejemplo4.exe
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\obj\Debug\Ejemplo4.pdb
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\bin\Debug\Ejemplo4.exe.manifest
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\bin\Debug\Ejemplo4.application
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\obj\Debug\Ejemplo4.exe.manifest
+C:\Users\Alumno\Source\Repos\Curso.NET\Ejemplo4\Ejemplo4\obj\Debug\Ejemplo4.application
