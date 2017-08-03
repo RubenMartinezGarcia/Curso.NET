@@ -13,13 +13,20 @@ namespace Pruebas
         }
     }
 
-    public class Person
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public void Save()
-        {
 
+    class Sql
+    {
+        Sql(List<Generic> generic)
+        protected sb = new StringBuilder();
+        public virtual builder string getSQL()
+        {
+            return sb.ToString();
         }
     }
+
+    class Insert
+    {
+        override GetSql();
+    }
+    
 }
