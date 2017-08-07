@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Linq;
+using System.Data.Linq.Mapping;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,23 +12,67 @@ namespace Pruebas
     {
         static void Main(string[] args)
         {
+            DataContext db = new DataContext(@"C:\Users\Alumno\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\Pruebas.mdf");
+            Table<Cliente> Cliente = db.GetTable<Cliente>();
+            db.Log = Console.Out;
+            IQueryable<Cliente> query1 =
+                from cliente1 in Cliente
+                where cliente1.Name == "Pedro"
+                select cliente1;
+            foreach (var cliente in Cliente)
+            {
+                Console.WriteLine("ID={0}, Name={1}", cliente.Id, cliente.Name);
+                Console.ReadLine();
+            }
         }
     }
 
-
-    class Sql
+    [Table(Name = "Cliente")]
+    public class Cliente
     {
-        Sql(List<Generic> generic)
-        protected sb = new StringBuilder();
-        public virtual builder string getSQL()
+        public Guid Id
         {
-            return sb.ToString();
+            get
+            {
+                return this.Id;
+            }
+            set
+            {
+                this.Id = value;
+            }
+        }
+        public string Name
+        {
+            get
+            {
+                return this.Name;
+            }
+            set
+            {
+                this.Name = value;
+            }
+        }
+        public int Phone
+        {
+            get
+            {
+                return this.Phone;
+            }
+            set
+            {
+                this.Phone = value;
+            }
+        }
+        public string Address
+        {
+            get
+            {
+                return this.Address;
+            }
+            set
+            {
+                this.Address = value;
+            }
         }
     }
-
-    class Insert
-    {
-        override GetSql();
-    }
-    
 }
